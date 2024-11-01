@@ -47,9 +47,13 @@ body {
     height: 350px;
     margin: 0  auto;
     padding: 100 100 100 100;
-  }
+}
+#header img {
+    width: 175px;
+}
 
 #header ul {
+    font-size: larger;
     display: flex;
     padding: 0;
     margin: 0;
@@ -77,8 +81,15 @@ body {
     vertical-align: middle;
 }
 
-  #header li img {
-    width: 20px;
+#header li img {
+    width: 30px;
   }
 
-  
+  /*-------------------------------------------
+メインビジュアル
+-------------------------------------------*/
+#mainvisual img {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* 横方向の中央揃え */
+}
