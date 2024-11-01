@@ -48,3 +48,7 @@ body {
     margin: 0 auto;
     padding: 0 4%;
   }
+  #header li img.icon {
+    width: 20px;
+  }
+  
