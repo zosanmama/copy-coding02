@@ -44,20 +44,40 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 150px;
-    margin: 0 auto;
-    padding: 0 4%;
+    height: 350px;
+    margin: 0  auto;
+    padding: 100 100 100 100;
   }
 
- #header ul {
+#header ul {
     display: flex;
     padding: 0;
     margin: 0;
     list-style: none;
-    gap: 10px; /* アイテム間の余白 */
+    gap: 40px; /* アイテム間の余白 */
 }
 
-  #header li img.icon {
+#header ul li {
+    align-items: center; /* 縦中央揃え */
+    justify-content: center; /* 横中央揃え */
+}
+
+#header ul li a {
+    color: inherit;         /* 親要素の文字色を継承 */
+    text-decoration: none;  /* 下線を消す */
+}
+
+#header ul li a:hover {
+    color: #a7a7a7;         /* ホバー時の色 */
+    text-decoration: none;  /* ホバー時も下線なし */
+}
+
+#header  ul li img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+  #header li img {
     width: 20px;
   }
 
