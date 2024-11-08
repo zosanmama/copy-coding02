@@ -142,5 +142,18 @@ Works
 }
 
 /*-------------------------------------------
+News
+-------------------------------------------*/
+#news dl {
+    border-top: 1px solid #a7a7a7;
+    border-bottom: 1px solid #a7a7a7;
+    padding: 10px 0;
+}
+#news dt dd {
+    border-top: 1px solid #a7a7a7;
+    border-bottom: 1px solid #a7a7a7;
+    padding: 10px 0;
+}
+/*-------------------------------------------
 Contact
 -------------------------------------------*/
