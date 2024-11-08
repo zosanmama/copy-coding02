@@ -35,6 +35,11 @@ body {
     min-height: 100vh; */
     scroll-behavior: smooth;
 }
+section {
+    max-width: 100%;
+    justify-content: center;
+    height: auto;
+}
 
 
 /*-------------------------------------------
@@ -102,8 +107,8 @@ body {
 about
 -------------------------------------------*/
 #about {
-    max-width: 960px;
-    justify-content: left;
+    max-width: 100%;
+    justify-content: center;
     height: auto;
 }
 #about h2 {
@@ -130,5 +135,30 @@ about
 Works
 -------------------------------------------*/
 #works {
-    
+    max-width: 100%;
+    justify-content: left;
+    height: auto;
 }
+#works h2 {
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#works ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3列 */
+    gap: 30px; /* アイテム間の余白（必要に応じて調整） */
+    list-style-type: none; /* リストマーカーを削除 */
+    padding: 0;
+    margin: 0;
+}
+#works img {
+    width: 100%; /* 各画像をリストアイテムの幅に合わせる */
+    height: auto; /* 縦横比を保つ */
+    display: block;
+}
+
+/*-------------------------------------------
+Works
+-------------------------------------------*/
