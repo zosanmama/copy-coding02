@@ -40,7 +40,12 @@ section {
     justify-content: center;
     height: auto;
 }
-
+section h2 {
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
 
 /*-------------------------------------------
 ヘッダー
@@ -106,18 +111,6 @@ section {
 /*-------------------------------------------
 about
 -------------------------------------------*/
-#about {
-    max-width: 100%;
-    justify-content: center;
-    height: auto;
-}
-#about h2 {
-    font-size: xx-large;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    
-}
 #about ul {
     list-style-type: none;
     margin-bottom: 30px;
@@ -134,17 +127,6 @@ about
 /*-------------------------------------------
 Works
 -------------------------------------------*/
-#works {
-    max-width: 100%;
-    justify-content: left;
-    height: auto;
-}
-#works h2 {
-    font-size: xx-large;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
 #works ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3列 */
@@ -160,5 +142,5 @@ Works
 }
 
 /*-------------------------------------------
-Works
+Contact
 -------------------------------------------*/
