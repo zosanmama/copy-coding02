@@ -176,13 +176,48 @@ Contact
 -------------------------------------------*/
 #contact dl {
     margin-top: 50px;
+    margin-bottom: 30px;
     font-size: 1.6rem;
 }
 #contact dt {
-    flex-basis: 10%;
+    flex-basis: 15%;
 }
 #contact dd {
-    flex-basis: 90%;
+    flex-basis: 85%;
     margin: 0;
-    border-radius: 1px solid black;
+    border: 1px solid  #cbc9c9;
+    padding: 10px;
+}
+
+#contact dl > div {
+    display: flex; /* dt と dd を横並びにする */
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+#contact button {
+    background-color: #292929;
+    color: white;
+    padding: 15px 80px;
+}
+
+#message-dd {
+    height: 150px;
+}
+#button {
+    display: flex;
+    justify-content: center;
+}
+/*-------------------------------------------
+Footer
+-------------------------------------------*/
+footer {
+    width: 100vw; /* デバイス全体の横幅に */
+    margin-left: calc(-50vw + 50%); /* body の中央揃えを打ち消す */
+    color: white;
+    font-size: xx-small;
+    background-color: #292929;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
 }
